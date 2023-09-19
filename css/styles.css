@@ -1,0 +1,44 @@
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.main {
+    margin-top: 43px;
+}
+
+nav.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #14213d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav.nav ul li {
+    float: left;
+}
+
+nav.nav ul li a {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav.nav ul li:last-child {
+    border-right: none;
+}
+
+nav.nav ul li a.active {
+    background-color:#fca311;
+}
+
+nav.nav ul li:hover {
+    background-color: #000000;
+}
