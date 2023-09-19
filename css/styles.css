@@ -6,6 +6,8 @@ body {
 
 .main {
     margin-top: 43px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 nav.nav ul {
@@ -41,4 +43,15 @@ nav.nav ul li a.active {
 
 nav.nav ul li:hover {
     background-color: #000000;
+}
+
+footer {
+    background-color: #14213d;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -15px;
+}
+
+footer p {
+    color: #ffffff;
 }
