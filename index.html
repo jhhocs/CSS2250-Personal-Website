@@ -1,33 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Hello :)</title>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body> 
-        <header class="main">
-            <h1>Welcome</h1>
-            <pre>
-        _/    _/    _/_/_/_/    _/          _/          _/_/
-       _/    _/    _/          _/          _/        _/    _/
-      _/_/_/_/    _/_/_/      _/          _/        _/    _/
-     _/    _/    _/          _/          _/        _/    _/
-    _/    _/    _/_/_/_/    _/_/_/_/    _/_/_/_/    _/_/
-
-
-
-
-
-
-
-
-    
-            </pre>
-            <ruby>
-                你<rp>(</rp><rt>Nǐ</rt><rp>)</rp>好<rp>(</rp><rt>hǎo</rt><rp>)</rp>
-            </ruby>
-            <p>My name is <strong>Joshua</strong> and I am a third year CS student</p>
-        </header>
+    <body class="main"> 
         <nav class="nav">
             <ul>
                 <li><a class="active" href="#">Home</a></li>
@@ -35,30 +13,43 @@
                 <li><a href="html/cookie.html">Cookie</a></li>
             </ul>
         </nav>
-        <div class="main">
-            <section>
-                <h2>Turtles are great</h2>
-                <a href="html/turtle.html">Click here for random turtle facts</a>
-                
-                
-            </section>
-            <br>
-            <hr>
-            <div>
-                <h3>Cookies are also great</h3>
-                <a href="html/cookie.html">Click here for a cookie recipe</a>
-                <!-- <h5>Click this button for a cookie recipe</h5>
-                <button onclick="window.location.href = 'cookie.html';">
-                    Cookie
-                </button> -->
+        <div class="content">
+            <div class="parallax">
+                <div class="welcome">
+                    <h1>Welcome</h1>
+                    
+                    <p>Hello, my name is <strong>Joshua</strong></p>
+                </div>
             </div>
             
-            
-            <!-- <h5>asdf</h5>
-            
-            <h6>asdf</h6> -->
-            <!-- <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="50">at 50/100</meter> -->
-            
+            <div class="temp">
+                <section class="turtles">
+                    <h2>Turtles are great</h2>
+                    <button onclick="window.location.href = 'html/turtle.html';">Turtle Facts</button>
+                    <!-- <a href="html/turtle.html">Click here for random turtle facts</a> -->
+                    <img src="picture/turtle.webp" width="200" alt="A very nice turtle">
+                </section>
+            </div>        
+            <div class="parallax">
+                <div class="cookies">
+                    <h2>Cookies are also great</h2>
+                    <p>Click here for a cookie recipe</p>
+                    <button onclick="window.location.href = 'html/cookie.html';">Cookie Recipe</button>
+                    <!-- <a href="html/cookie.html">Click here for a cookie recipe</a> -->
+                    <!-- <h5>Click this button for a cookie recipe</h5>
+                    <button onclick="window.location.href = 'cookie.html';">
+                        Cookie
+                    </button> -->
+                </div>
+                
+                
+                <!-- <h5>asdf</h5>
+                
+                <h6>asdf</h6> -->
+                <!-- <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="50">at 50/100</meter> -->
+                
+                
+            </div>
             <footer>
                 <p>Thanks for visiting</p>
             </footer>
