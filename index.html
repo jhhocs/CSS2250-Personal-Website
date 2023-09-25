@@ -2,8 +2,9 @@
 <html lang="en">
     <head>
         <title>Welcome</title>
-        <link rel="stylesheet" href="css/general.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body class="main"> 
         <nav class="nav">
@@ -23,25 +24,30 @@
             </div>
             
             <div class="temp">
-                <section class="turtles">
-                    <h2>Turtles are great</h2>
-                    <button onclick="window.location.href = 'html/turtle.html';">Turtle Facts</button>
-                    <!-- <a href="html/turtle.html">Click here for random turtle facts</a> -->
-                    <img src="picture/turtle.webp" width="200" alt="A very nice turtle">
-                </section>
-            </div>        
-            <div class="parallax">
-                <div class="cookies">
-                    <h2>Cookies are also great</h2>
-                    <p>Click here for a cookie recipe</p>
-                    <button onclick="window.location.href = 'html/cookie.html';">Cookie Recipe</button>
-                    <!-- <a href="html/cookie.html">Click here for a cookie recipe</a> -->
-                    <!-- <h5>Click this button for a cookie recipe</h5>
-                    <button onclick="window.location.href = 'cookie.html';">
-                        Cookie
-                    </button> -->
+                <div class="flex-container">
+                    <div class="turtles">
+                        <div>
+                            <h2>Turtles are great</h2>
+                            <button onclick="window.location.href = 'html/turtle.html';">Turtle Facts</button>
+                        </div>
+                        <!-- <a href="html/turtle.html">Click here for random turtle facts</a> -->
+                        <img src="picture/turtle.webp" width="200" alt="A very nice turtle">
+                    </div>
+                    <div class="cookies">
+                        <h2>Cookies are also great</h2>
+                        <p>Click here for a cookie recipe</p>
+                        <button onclick="window.location.href = 'html/cookie.html';">Cookie Recipe</button>
+                        <!-- <a href="html/cookie.html">Click here for a cookie recipe</a> -->
+                        <!-- <h5>Click this button for a cookie recipe</h5>
+                        <button onclick="window.location.href = 'cookie.html';">
+                            Cookie
+                        </button> -->
+                    </div>
                 </div>
                 
+            </div>        
+            <div class="parallax">
+                <h1 id="thanks">Thanks for visiting</h1>
                 
                 <!-- <h5>asdf</h5>
                 
@@ -51,7 +57,7 @@
                 
             </div>
             <footer>
-                <p>Thanks for visiting</p>
+                <p>:)</p>
             </footer>
         </div>
     </body>

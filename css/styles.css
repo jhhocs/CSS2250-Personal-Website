@@ -1,9 +1,4 @@
-a {
-    color:purple;
-}
-
 body {
-    background-color:#14213d;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 1.5;
@@ -11,131 +6,44 @@ body {
 }
 
 body div.content {
-    margin-top: 0px;
+    margin-top: 50px;
 }
 
-h2 {
-    font-size: 30px;
-}
-
-body div div.cookies {
-    padding-top: 100px;
-}
-
-body div div.welcome {
-    padding: 200px 20px;
-    animation-name: fadein;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: backwards;
-}
-
-body div div.welcome h1 {
-    font-size: 60px;
-}
-
-body div div.welcome p {
-    font-size: 25px;
-}
-
-@keyframes fadein {
-    0% {
-        opacity: 0;
-        transform: translate(0px, 75px)
-    }
-    70% {
-        transform: translate(0px, 0px)
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-button {
-    border:none;
-    font-size: 15px;
-    padding: 15px 30px;
-    cursor: pointer;
-    transition: background-color 0.5s;
-    border-radius:25px;
-}
-
-body div div button {
-    background-color:#ffffff;
-    color:#000000;
-}
-
-body div section.turtles {
-    padding: 50px 20px;
-}
-
-body div section.turtles button {
+nav.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #14213d;
-    color:#ffffff;
-}
-
-body div section.turtles button:hover {
-    background-color: #000000;
-}
-
-body div section.turtles img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    image-rendering: auto;
-}
-
-.main {
-    /* margin-top: 43px; */
-    /* padding: 200px 20px; */
-    /* padding-bottom: 50px; */
-    text-align: center;
-    color: #ffffff;
-    /* margin-left: 8px;
-    margin-right: 8px; */
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
     letter-spacing: 2px;
 }
 
-footer {
-    background-color: #14213d;
-    /* margin-left: -8px;
-    margin-right: -8px; */
-    margin-top: -15px;
-    margin-bottom: -15px;
+nav.nav ul li {
+    float: left;
+    transition: background-color 0.5s;
 }
 
-footer p {
-    background-color: #fca311;
-    color: #000000;
-    font-weight: 900;
-    padding:5px;
+nav.nav ul li a {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
     text-align: center;
+    padding: 14px 20px;
 }
 
-.parallax {
-    background-image:url("../picture/background.jpeg");
-    background-size:cover;
-    background-attachment: fixed;
-    min-height: 600px;
+nav.nav ul li:last-child {
+    border-right: none;
 }
 
-.temp {
-    height:500px;
-    background:#fca311;
+nav.nav ul li a.active {
+    color:#000000;
+    background-color:#fca311;
 }
 
-@media screen and (max-width: 600px) {
-    body div div.welcome h1 {
-        font-size: 45px;
-    }
-    
-    body div div.welcome p {
-        font-size: 20px;
-        padding: 0px 5px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
+nav.nav ul li:hover {
+    background-color: #000000;
 }
-    
