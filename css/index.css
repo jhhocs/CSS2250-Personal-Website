@@ -4,10 +4,6 @@ a {
 
 body {
     background-color:#14213d;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 0;
 }
 
 body div.content {
@@ -16,10 +12,6 @@ body div.content {
 
 h2 {
     font-size: 30px;
-}
-
-body div div.cookies {
-    padding-top: 100px;
 }
 
 body div div.welcome {
@@ -88,21 +80,15 @@ body div.temp div.turtles {
 }
 
 body div.temp div.turtles img {
-    /* display: block; */
     margin-left: 20px;
     margin-right: auto;
     image-rendering: auto;
-    height: 200px;
+    width: 300px;
 }
 
 .main {
-    /* margin-top: 43px; */
-    /* padding: 200px 20px; */
-    /* padding-bottom: 50px; */
     text-align: center;
     color: #ffffff;
-    /* margin-left: 8px;
-    margin-right: 8px; */
     letter-spacing: 2px;
 }
 
@@ -113,8 +99,6 @@ body div.temp div.turtles img {
 
 footer {
     background-color: #14213d;
-    /* margin-left: -8px;
-    margin-right: -8px; */
     margin-top: -15px;
     margin-bottom: -15px;
 }
@@ -140,6 +124,10 @@ footer p {
 }
 
 @media screen and (max-width: 1100px) {
+
+}
+
+@media screen and (min-width: 240px) and (max-width: 850px) {
     body div.temp div.turtles {
         flex-direction: column;
         padding-top: 0px;
@@ -150,37 +138,10 @@ footer p {
     body div.temp div {
         padding-bottom: 0px;
     }
-}
-
-@media screen and (min-width: 240px) and (max-width: 850px) {
-    /* body div div.welcome h1 {
-        font-size: 45px;
-    }
-    
-    body div div.welcome p {
-        font-size: 20px;
-        padding: 0px 5px;
-    } */
-
-    /* body div div.parallax h1#thanks{
-        font-size: 40px;
-        padding: 250px 20px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    } */
-
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-    }
 
     .temp {
-        height:750px;
+        height: 600px;
         background:#fca311;
     }
 
-    h2 {
-        font-size: 25px;
-    }
-  
 }
