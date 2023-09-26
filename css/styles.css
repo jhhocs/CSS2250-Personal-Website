@@ -47,3 +47,10 @@ nav.nav ul li a.active {
 nav.nav ul li:hover {
     background-color: #000000;
 }
+
+/* @media screen and (min-device-width: 481px) and (orientation:portrait) {
+    nav.nav ul li a {
+        font-size: 30px;
+        padding: 20px 26px;
+    }
+} */

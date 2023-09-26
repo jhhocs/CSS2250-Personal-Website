@@ -89,7 +89,7 @@ body div.temp div.turtles {
 
 body div.temp div.turtles img {
     /* display: block; */
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
     image-rendering: auto;
     height: 200px;
@@ -108,8 +108,7 @@ body div.temp div.turtles img {
 
 .flex-container {
     display: flex;
-    flex-direction: row;
-    margin: 5px;
+    flex-wrap: wrap;
   }
 
 footer {
@@ -132,7 +131,7 @@ footer p {
     background-image:url("../picture/background.jpeg");
     background-size:cover;
     background-attachment: fixed;
-    min-height: 600px;
+    max-height: 600px;
 }
 
 .temp {
@@ -140,32 +139,35 @@ footer p {
     background:#fca311;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     body div.temp div.turtles {
         flex-direction: column;
         padding-top: 0px;
+    }
+    body div.temp div.turtles img {
+        margin-left: auto;
     }
     body div.temp div {
         padding-bottom: 0px;
     }
 }
 
-@media screen and (max-width: 850px) {
-    body div div.welcome h1 {
+@media screen and (min-width: 240px) and (max-width: 850px) {
+    /* body div div.welcome h1 {
         font-size: 45px;
     }
     
     body div div.welcome p {
         font-size: 20px;
         padding: 0px 5px;
-    }
+    } */
 
-    body div div.parallax h1#thanks{
+    /* body div div.parallax h1#thanks{
         font-size: 40px;
         padding: 250px 20px;
         margin-top: 0px;
         margin-bottom: 0px;
-    }
+    } */
 
     .flex-container {
         display: flex;
@@ -182,4 +184,3 @@ footer p {
     }
   
 }
-    
